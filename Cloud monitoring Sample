@@ -1,0 +1,81 @@
+# Why Cloud Applications Feel Slow: Common Causes of Latency in AWS
+
+## Introduction
+
+When an application feels slow, the problem is rarely obvious.
+Pages load eventually, requests succeed, and nothing appears to be “broken,”
+yet users still experience delays.
+
+While working with AWS-based applications, I’ve seen latency issues caused by
+a combination of configuration choices, dependencies, and monitoring gaps.
+This article outlines common reasons cloud applications feel slow and how
+basic monitoring helps identify them.
+
+---
+
+## Network Latency and Load Balancers
+
+In AWS, requests often pass through one or more load balancers before reaching
+an application. Misconfigured health checks, cross-region traffic, or slow
+target responses can all add latency.
+
+Monitoring request latency at the load balancer level helps determine whether
+delays occur before the application code is reached.
+
+---
+
+## Cold Starts and Resource Scaling
+
+Applications that rely on autoscaling or serverless components may experience
+delays when resources are scaled up to meet demand.
+
+Cold starts are not failures, but they can significantly impact response times.
+Tracking startup duration and request latency during scale events helps teams
+understand when this is happening.
+
+---
+
+## Downstream Dependencies
+
+Many applications depend on external services such as authentication systems,
+databases, or third-party APIs.
+
+When a downstream dependency slows down, the application often waits rather
+than fails. This causes requests to complete successfully but take much longer
+than expected.
+
+Logs and latency metrics are often the first indicators of this pattern.
+
+---
+
+## Retries That Add Hidden Delays
+
+Retries are commonly used to improve reliability, but they can unintentionally
+increase latency.
+
+When retries occur without surfacing errors, users experience slowness without
+clear signals. Reviewing logs for repeated retry attempts helps uncover this
+type of behavior.
+
+---
+
+## Why Monitoring Matters
+
+Latency issues are easier to detect when teams track:
+- Request latency
+- Dependency response times
+- Error and retry rates
+
+Metrics help identify *when* performance degrades, while logs provide the
+context needed to understand *why*.
+
+---
+
+## Conclusion
+
+Cloud application latency is often the result of multiple small delays rather
+than a single failure. By monitoring latency, dependencies, and retries, teams
+can identify performance issues earlier and respond with greater confidence.
+
+Clear visibility into system behavior is essential for maintaining reliable
+cloud applications.
