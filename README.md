@@ -1,7 +1,7 @@
 # Technical-writing-portfolio- Adeyinka Adekunle
 ### Technical writing samples: internal help documents, release notes, user guide blogs and help videos.
 ## About Me
-I have worked as a product engineer in  Esri on  a cloud-based analytics and SaaS solution team and created user guides, documents, blogs and instructional videos. I recently worked in AWS as a Technical product manager on an analytics team and wrote internal help guides, onboarding and training documents and instructional presentation videos.
+ I recently worked in AWS as a Technical product manager on an analytics team and wrote internal help guides, onboarding and training documents and instructional presentation videos.I have worked as a Product Engineer in  Esri on  a cloud-based analytics and SaaS solution team and created user guides, documents, blogs and instructional videos.
 ###  Writing Samples
 - [Internal Help Guide- AWS Sample(not the real doc)](https://github.com/adekunledeyinka-boop/Technical-writing-portfolio/commit/5984e8cb88524c22756a584d7c36899cc3320857#diff-e7bdad7eb199e9c6c0521e4078a055e56c4be37de8dd73c1710d9f1cf73819ea)
 
