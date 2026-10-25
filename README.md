@@ -23,7 +23,7 @@
 [Installation and Configuration of the Cloud based product](https://community.esri.com/t5/arcgis-for-sharepoint-videos/installing-and-configuring-arcgis-for-sharepoint/m-p/1278050#M3)
 
 ### Tools & Skills
-- AWS (Cloud technology familiarity)- AWS Cloud Certified and AWS Solutions Architect in progress 
+- AWS (Cloud technology )- AWS Cloud Certified and AWS Solutions Architect in progress 
 - Markdown documentation
 - Release notes & change logs
 - Technical Documentation and Blogs 
